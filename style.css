@@ -84,3 +84,19 @@ list-style-type: none;
 .as h3 {
     text-align: center;
 }
+
+
+/* @media screen and (max-width: 414px) {
+    .title {
+        text-align: center;
+        width: 414px;
+        font-size: 14px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .center {
+        width: 50%;
+    }
+
+} */
