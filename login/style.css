@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(45deg, #16bffd, #cb3066);
+  background-repeat: no-repeat;
+}
+
+.nemo1 {
+  background-color: rgb(255, 255, 255, 0.1);
+  width: 400px;
+  height: 500px;
+  border-radius: 2%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 80px;
+  box-shadow: 2px 2px 4px black;
+}
+
+.user_icon img {
+    width: 100px;
+    height: 100px;
+    }
+#login_id, #login_pw {
+    width: 400px;
+    height: 50px;
+    border: 0;
+    background-color: rgb(255, 255, 255, 0.3);
+    font-size: 25px;
+    text-indent: 10px;
+    margin-top: 40px;
+    outline: none;
+}
+#login_pw {
+    margin-top: 20px;
+}
+
+.rem_id {
+    text-align: left;
+    margin-top: 10px;
+    color: #525252;
+}
+
+.for_pw {
+    margin:20px;
+}
+.for_pw a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.buts {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 300px;
+    height: 50px;
+    margin:  0 auto;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border: 0;
+    color: white;
+    box-shadow: 2px 2px 4px gray;
+    }
+
+button:hover {
+    background-color:#a91649;
+}
+.login_but {
+    background:#46acd1;
+}
+.join_but {
+    background:#22728e;
+}
