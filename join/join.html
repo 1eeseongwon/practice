@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nemo1">
+      <h2>MEMBERSHIP</h2>
+      <div class="join_id">
+        <label for="join_id">ID</label>
+        <input type="text" name="join_id" id="join_id" required maxlength="10" autofocus> 
+      </div>
+      <div class="join_pw">
+        <label for="join_pw">PASSWORE</label>
+        <input type="password" name="join_pw" id="join_pw" required maxlength="10" autofocus>
+      </div>
+      <div class="join_contact">
+        <label for="join_contact">CONTACT</label>
+        <select>
+          <option value="010">010</option>
+          <option value="011">011</option>
+          <option value="012">012</option>
+        </select>
+        <input type="tel" name="join_contact" id="join_contact" maxlength="4"/>
+        <input type="tel" name="join_contact" id="join_contact" maxlength="4"/>
+      </div>
+      <div class="join_email">
+        <label for="join_email">EMAIL</label>
+        <input type="email" name="join_email" id="join_email" />
+      </div>
+      <div class="join_code">
+        <label for="join_code">CODE</label>
+        <input type="text" name="join_code" id="join_code" maxlength="6"/>
+      </div>
+      <div class="buts">
+        <button type="submit" class="join_but">Join</button>
+        <button type="submit" class="cancel_but">Cancel</button>
+      </div>
+    </div>
+  </body>
+</html>

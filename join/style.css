@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(45deg, #16bffd, #cb3066);
+    background-repeat: no-repeat;
+  }
+
+  .nemo1 {
+    background-color: rgb(255, 255, 255, 0.1);
+    width: 500px;
+    height: 500px;
+    border-radius: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 40px 10px;
+    box-shadow: 2px 2px 4px black;
+  }
+
+  h2 {
+    color: white;
+  }
+  label {
+    font-size: 22px;
+    color: white;
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  #join_id, #join_pw, #join_email, #join_code {
+    width: 250px;
+    height: 50px;
+    border: 0;
+    background-color: rgb(255, 255, 255, 0.3);
+    font-size: 20px;
+    text-indent: 10px;
+    margin-top: 20px;
+    outline: none;
+    margin: 10 auto;
+  }
+  #join_contact {
+    width:80px;
+    height: 50px;
+    font-size: 20px;
+    border: 0;
+    background-color: rgb(255, 255, 255, 0.3);
+    font-size: 20px;
+    text-indent: 10px;
+    margin-top: 20px;
+    outline: none;
+    margin: 10 auto;
+  }
+  select {
+    width:80px;
+    height: 50px;
+    font-size: 20px;
+    border: 0;
+    background-color: rgb(255, 255, 255, 0.3);
+    font-size: 20px;
+    text-indent: 10px;
+    margin-top: 20px;
+    outline: none;
+    margin: 10 auto;
+  }
+  button {
+    width: 130px;
+    height: 50px;
+    margin:   20px auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-size: 25px;
+    border: 0;
+    color: white;
+    box-shadow: 2px 2px 4px gray;
+  }
+button:hover {
+    background-color:#a91649;
+}
+.join_but {
+    background:#46acd1;
+}
+.cancel_but {
+    background:#22728e;
+}
+ 
